@@ -1,0 +1,26 @@
+[package]
+name = "actix_authenication"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "4.0.0"
+config = "0.10.0"
+dotenv = "0.15.0"
+serde = {version = "1.0", features = ["derive"]}
+eyre = "0.4"
+color-eyre = "0.3"
+tracing = "0.1"
+tracing-futures = "0.2"
+tracing-log= {version = "0.1", features = ["env_logger"]}
+tracing-subscriber = "0.2"
+sqlx = {version = "0.3", default-features = false, features = ["runtime-tokio", "macros", "postgres", "uuid", "chrono"]}
+uuid = { version = "0.8", features = ["serde"] }
+chrono = { version = "0.4", features = ["serde"] }
+validator = "0.10"
+validator_derive = "0.10"
+jsonwebtoken = "7.1"
+argonautica = { version = "0.2", features = ["simd"] }
+futures = { version = "0.3", features = ["compat"] }

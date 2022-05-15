@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/actix_authenication.iml" filepath="$PROJECT_DIR$/actix_authenication.iml" />
+    </modules>
+  </component>
+</project>
